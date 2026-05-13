@@ -1,0 +1,54 @@
+<html>
+<head>
+   <title>Form Sederhana - Versi baru</title>
+   <link rel="stylesheet" style="text/css" href="form.css" />
+   
+ </head>
+<body>
+    <main class="card" role="main" aria-labelledy="form-title">
+	<h1>Kirim Pesan</h1>
+	<p class="desc">Form singkat - hanya informasi penting.</p>
+	<form >
+	   <div class="two-cols">
+		<div>
+		 <label>Nama *</label>
+		 <input type="text" placeholder="Nama lengkap" required>
+		</div>
+		
+	    <div>
+         <label>Email *</label>
+     	 <input type="email" placeholder="email@contoh.com" required>
+		</div>
+	</div>
+	
+	<div>
+	 <label for="kategori">Kategori</label>
+	  <select id="kategori" name="kategori">
+	    <option value="">Pilih (opsional)</option>
+		<option value="umum">Pertanyaan Umum</option>
+		<option value="order">Order</option>
+		<option value="support">Support</option>
+	  </select>
+	</div>
+	
+	<div>
+	  <label for="pesan">Pesan *</label>
+	  <textarea plcaeholder="Tulis pesan anda"></textarea>
+	</div>
+	
+	<label class="row-inline">
+	   <input type="checkbox" id="wa" name="wa">
+	   <span style="font-size:13px;color:var(--muted)">Saya bersedia dihubungi via whatsapp</span>
+	</label>
+	
+	<div class="actions">
+	   <button type="submit" class="btn submit">Kirim</button>
+	   <button type="reset" class="btn clear">Reset</button>
+	   <div style="margin-left:auto"class="help">
+	           Field bertanda * wajib diisi.
+	           </div>
+		    </div>
+	    </form>
+    </main>
+</body>
+</html> 

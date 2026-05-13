@@ -1,0 +1,46 @@
+h1{
+	text-align:center;
+	font-family:Calibri 14;
+	font-size:14px;
+}
+.food{
+	color:red;
+	background-color:green;
+}
+.e{
+	text-align:center;
+	font-family:Calibri 24;
+	font-size:44px;
+	font-weight:bolds;
+}
+h2{
+	text-align:center;
+	font-family:Calibri 14;
+	font-size:14px;
+}
+.c{
+	font-family:Calibri 24;
+	font-size:34px;
+}
+.o{
+	color:black;
+	background-color:chocolate;
+}
+h3{
+	text-align:left;
+	font-family:Calibri 14;
+	font-size:14px;
+}
+.l{
+	text-align:left;
+	font-family:Calibri 24;
+	font-size:44px;
+	font-weight:bolds;
+	color:black;
+	background-color:blue;
+}
+.i{
+	color:black;
+	background-color:lime;
+}
+

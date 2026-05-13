@@ -1,0 +1,85 @@
+
+<html >
+<head>
+  <title>Delicious Bites</title>
+  <link rel="stylesheet" href="commerce.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">Delicious Bites</h1>
+	  <ul class="nav-links">
+
+  <li class="dropdown">
+    <a href="#">
+      Burger
+    </a>
+    <ul class="submenu">
+      <li><a href="#" onclick="loadMenu('burger1')">Classic Burger</a></li>
+      <li><a href="#" onclick="loadMenu('burger2')">Cheese Burger</a></li>
+    </ul>
+  </li>
+
+  <li class="dropdown">
+    <a href="#">
+      Pizza
+    </a>
+    <ul class="submenu">
+      <li><a href="#" onclick="loadMenu('pizza1')">Italian Pizza</a></li>
+      <li><a href="#" onclick="loadMenu('pizza2')">Pepperoni Pizza</a></li>
+    </ul>
+  </li>
+
+  <li class="dropdown">
+    <a href="#">
+      Pasta
+    </a>
+    <ul class="submenu">
+      <li><a href="#" onclick="loadMenu('pasta1')">Creamy Pasta</a></li>
+      <li><a href="#" onclick="loadMenu('pasta2')">Carbonara</a></li>
+    </ul>
+  </li>
+
+  <li class="dropdown">
+    <a href="#">
+      Steak
+    </a>
+    <ul class="submenu">
+      <li><a href="#" onclick="loadMenu('steak1')">Premium Steak</a></li>
+      <li><a href="#" onclick="loadMenu('steak2')">BBQ Steak</a></li>
+    </ul>
+  </li>
+
+  <li class="dropdown">
+    <a href="#">
+      Drinks
+    </a>
+    <ul class="submenu">
+      <li><a href="#" onclick="loadMenu('drink1')">Coffee</a></li>
+      <li><a href="#" onclick="loadMenu('drink2')">Juice</a></li>
+    </ul>
+  </li>
+
+</ul>
+      <button class="register-btn">Register</button>
+    </nav>
+    <div class="hero-content">
+      <h1>Premium Experience</h1>
+      <p>
+        Enjoy delicious food with elegant atmosphere.
+      </p>
+      <button class="hero-btn">Explore Menu</button>
+    </div>
+  </header>
+  <section class="menu-section">
+    <div class="menu-heading">
+      <h1>OUR MENU</h1>
+      <p>
+        Choose your favorite dishes from our premium menu.
+      </p>
+    </div>
+    <div class="menu-grid" id="menuList"></div>
+  </section>
+  <script src="commerce.js"></script>
+</body>
+</html>

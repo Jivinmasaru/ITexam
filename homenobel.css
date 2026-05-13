@@ -1,0 +1,25 @@
+.kontainer{
+	max-width:600px;
+	background:grey;
+	padding:20px;
+	border-radius:8px;
+	marign:auto;
+}
+.radio{
+	font-weight:normal;
+	display:inline-block;
+	margin-right:15px;
+}
+label{
+	display:block;
+	margin-top:10px;
+	font-weight:bold;
+}
+.kontainer2{
+	max-width:600px;
+	background:#e9ecef;
+	padding:20px;
+	border-radius:bold;
+	white-space:pre-line;
+}
+	

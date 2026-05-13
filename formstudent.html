@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>Pendaftaran Siswa Baru</title>
+  <link rel="stylesheet" href="formstudent.css">
+</head>
+<body>
+
+  <h1 class="title">Pendaftaran Siswa Baru</h1>
+  
+  <div class="container">
+  
+    <div class="left-section">
+	
+      <button class="btn btn-submit" type="submit" form="pendaftaranForm">Submit</button>
+	  
+      <form id="pendaftaranForm" class="form">
+        <div class="form-group">
+          <label>Nama *</label>
+          <input type="text" placeholder="Masukkan nama" required>
+        </div>
+		
+        <div class="form-group">
+          <label>Email *</label>
+          <input type="email" placeholder="Masukkan email" required>
+        </div>
+		
+        <div class="form-group">
+          <label>Nomor Telepon *</label>
+          <input type="tel" placeholder="Masukkan nomor telepon" required>
+        </div>
+      
+        <div class="form-group">
+          <label>Umur :<span class="note"></span></label>
+          <div class="checkbox-group">
+            <label><input type="checkbox" name="umur" required> 5-6 tahun</label>
+            <label><input type="checkbox" name="umur"> 7-8 tahun</label>
+            <label><input type="checkbox" name="umur"> 9-10 tahun</label>
+          </div>
+        </div>
+		
+        <div class="form-group">
+          <label>Kebutuhan :<span class="note"></span></label>
+          <div class="checkbox-group">
+            <label><input type="checkbox" name="kebutuhan" required> Khusus</label>
+            <label><input type="checkbox" name="kebutuhan"> Normal</label>
+          </div>
+        </div>
+		
+        <button type="reset" class="btn btn-cancel">Cancel</button>
+      </form>
+    </div>
+	
+    <div class="right-section">
+      <img src="sekolahs.jfif" alt="Gedung Sekolah">
+    </div>
+  </div>
+</body>
+</html>

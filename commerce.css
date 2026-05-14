@@ -58,34 +58,13 @@ body{
   cursor:pointer;
 }
 .hero{
-  height:100vh;
-  background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1400&auto=format&fit=crop');
-  background-size:cover;
-  background-position:center;
+  width:100%;
+  background:none;
 }
 
-.hero-content{
-  height:85vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  color:white;
-  background:rgba(0,0,0,0.5);
-}
-
-.hero-content h1{
-  font-size:60px;
-}
-
-.hero-btn{
-  margin-top:20px;
-  padding:14px 24px;
-  border:none;
-  border-radius:30px;
-  background:#ffb703;
-  cursor:pointer;
+.header-image{
+  width:100%;
+  display:block;
 }
 .menu-section{
   padding:80px 8%;
@@ -154,25 +133,91 @@ body{
 
 .submenu{
   position:absolute;
-  top:100%;
+  top:120%;
   left:0;
   background:#111;
   list-style:none;
-  padding:10px;
-  display:none;
-  min-width:180px;
-  border-radius:12px;
-}
+  min-width:200px;
+  border-radius:14px;
+  padding:12px 0;
 
-.submenu li{
-  padding:8px 0;
-}
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(-10px);
 
-.submenu a{
-  color:white;
-  text-decoration:none;
+  transition:all .35s ease;
+  box-shadow:0 12px 25px rgba(0,0,0,.25);
 }
 
 .dropdown:hover .submenu{
+  opacity:1;
+  visibility:visible;
+  transform:translateY(0);
+}
+
+.submenu li{
+  padding:0;
+}
+
+.submenu a{
   display:block;
+  padding:14px 20px;
+  color:white;
+  text-decoration:none;
+  transition:.25s;
+}
+
+.submenu a:hover{
+  background:#ffb703;
+  color:#111;
+  padding-left:28px;
+}
+.footer{
+  background:#111;
+  color:white;
+  margin-top:80px;
+}
+
+.footer-content{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:40px;
+  padding:60px 8%;
+}
+
+.footer h2,
+.footer h3{
+  margin-bottom:15px;
+}
+
+.footer p{
+  color:#bbb;
+  line-height:1.7;
+}
+
+.footer-links a{
+  display:block;
+  color:#bbb;
+  text-decoration:none;
+  margin-bottom:10px;
+  transition:.3s;
+}
+
+.footer-links a:hover{
+  color:#ffb703;
+  padding-left:8px;
+}
+
+.footer-bottom{
+  text-align:center;
+  padding:20px;
+  border-top:1px solid rgba(255,255,255,.08);
+  color:#999;
+}
+.footer{
+  background:#111;
+  color:white;
+  margin-top:0;
+  padding-top:60px;
+  border-top:4px solid #ffb703;
 }

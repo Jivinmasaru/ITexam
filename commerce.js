@@ -122,49 +122,44 @@
      desc:'Creamy mushroom pizza.'
     }
   ],
- pizza2:[
-
-    {
-      name:'Italian Pizza',
-      price:'Rp. 65.000',
-      img:'itpizza.jpg',
-      desc:'Stone baked pizza with premium cheese.'
-    },
-
-    {
-      name:'Pepperoni Pizza',
-      price:'Rp.67.000',
-      img:'pepizza.jpg',
-      desc:'Delicious pizza with pepperoni topping.'
-    },
-
-    {
-      name:'Cheese  Pizza',
-      price:'Rp. 60.000',
-      img:'chepizza.webp',
-      desc:'Classic cheese pizza.'
-    },
-
-    {
-      name:'Veggie Pizza',
-      price:'Rp 59.000',
-      img:'vegpizza.jpg',
-      desc:'Pizza with fresh vegetables.'
-    },
-
-    {
-      name:'Seafood Pizza',
-      price:'Rp. 59.000',
-      img:'seapizza.jpg',
-      desc:'Premium seafood pizza.'
-    },
-    {
-      name:'Mushroom Pizza',
-      price:'Rp. 60.000',
-      img:'mupizza.jpg',
-     desc:'Creamy mushroom pizza.'
-    }
-  ],
+pizza2:[
+{
+name:'Classic Pepperoni',
+price:'Rp. 67.000',
+img:'pep1.jpg',
+desc:'Classic pepperoni with rich mozzarella.'
+},
+{
+name:'Extra Cheese Pepperoni',
+price:'Rp. 70.000',
+img:'pep2.jpg',
+desc:'Loaded cheese with premium pepperoni.'
+},
+{
+name:'Spicy Pepperoni',
+price:'Rp. 72.000',
+img:'pep3.jpg',
+desc:'Hot spicy pepperoni explosion.'
+},
+{
+name:'BBQ Pepperoni',
+price:'Rp. 74.000',
+img:'pep4.jpg',
+desc:'Smoky BBQ sauce with pepperoni.'
+},
+{
+name:'Double Pepperoni',
+price:'Rp. 76.000',
+img:'pep5.jpg',
+desc:'Twice the pepperoni goodness.'
+},
+{
+name:'Pepperoni Supreme',
+price:'Rp. 80.000',
+img:'pep6.jpg',
+desc:'Ultimate pepperoni deluxe pizza.'
+}
+],
   pasta1:[
 {
 name:'Creamy Alfredo',
